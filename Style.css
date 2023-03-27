@@ -1,0 +1,116 @@
+*, html {
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+
+    background-image: url("Linked files/Background.png");
+    background-repeat: repeat-y;
+}
+
+div.art{
+    position: absolute;
+    left: 64%;
+}
+
+img.art{
+    height: 100vh;
+}
+
+div.header{
+    display: inline-block;
+    text-align: left;
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 260px;
+}
+
+div.main{
+    text-align: left;
+    padding-left: 260px;
+}
+
+.container-socials{
+    display: flex;
+    padding-left: 62%;
+    gap: 25px;
+    padding-bottom: 0px;
+}
+
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.socials{
+    padding: 5px;
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+.socials-instagram{
+    background-color: #d25bda;
+}
+
+.socials-twitter{
+    background-color: #0eabe1;
+}
+
+.socials-email{
+    background-color: #264a64;
+}
+
+img.socials{
+    width: 40px;
+    transition: transform 0.25s;
+}
+
+img.socials:hover{
+    transform: scale(1.2);
+}
+
+.navbar{
+    color: #F3EEDC;
+    font: 33px uppercase Roboto, Helvetica;
+    text-transform: uppercase;
+
+    padding: 10px;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.navbar-unselected{
+    background-color: #BCAEA5;
+}
+
+.navbar-selected{
+    background-color: #DB4343;
+}
+
+.navbar-unselected:hover{
+    background-color: #e08c8c;
+}
+
+p{
+    padding-bottom: 20px;
+
+    color: black;
+    font: 27px Roboto, Helvetica;
+    line-height: 58px;
+
+    inline-size: 700px;
+    overflow-wrap: break-word;
+}
+
+p.hangul{
+    font-size: 25px;
+}
+
+p.footer{
+    font-size: 15px;
+}
